@@ -1,0 +1,417 @@
+* {
+    padding: 0%;
+    margin: auto;
+}
+
+body {
+    background-color: #f3f7f9;
+}
+
+.wrapper {
+    width: 1089px;
+    height: auto;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #52240f;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #52240f;
+    line-height: 50px;
+    margin-top: 70px;
+}
+
+.search-box {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 25px;
+    right: 590px;
+}
+
+.search-box .input-box {
+    position: relative;
+    background-color: rgb(253, 253, 253);
+    padding: 12px;
+    border-radius: 5px;
+    width: 468px;
+}
+
+.search-box .input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 17;
+    padding-right: 1px;
+}
+
+.search-box .input-box input::placeholder {
+    color: #000000;
+}
+
+.search-box .search-button {
+    color: black;
+    float: right;
+    width: 41px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: #ffbe0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 424px;
+    cursor: pointer;
+}
+
+.search-box .search-button img {
+    width: 22px;
+    height: 22px;
+}
+
+.hinh img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 210px;
+}
+
+.search-box .search-button a {
+    text-decoration: none;
+}
+
+.search-box .search-button a h4 {
+    right: 10px;
+}
+
+.sdt {
+    position: absolute;
+    right: 350px;
+    top: 10px;
+}
+
+.sdt:hover {
+    transform: rotate(10deg);
+}
+
+.sdt a {
+    position: relative;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sdt a p {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sdt a h3 {
+    color: #ffbe0d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.sdt a img {
+    width: 40px;
+    height: 40px;
+    transform: translateX(-135px) translateY(35px);
+}
+
+.gioHang .btnGioHang {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffbe0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 35px;
+    right: 220px;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(253, 253, 253);
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    background-color: #f3f7f9;
+    float: left;
+}
+
+.phan-cuoi {
+    width: 100%;
+    height: 280px;
+    background-color: #343a40;
+    margin-top: 220px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer {
+    width: 90%;
+    height: 280px;
+    box-sizing: border-box;
+    float: left;
+   margin-left: 150px;
+   padding-left: 80px;
+    background-color: #343a40;
+}
+
+
+.footer h6 {
+    color: #ffbe0d;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer4 li {
+    color: #ffffff;
+}
+
+.footer1 {
+    width: 327px;
+    height: 260px;
+    padding: 20px;
+    float: left;
+    background-color: #343a40;
+    color: #ffffff;
+   
+}
+
+.footer2 {
+    width: 260px;
+    height: 260px;
+   padding: 20px;
+    float: left;
+    background-color: #343a40;
+    color: #ffffff;
+ 
+}
+
+.footer3 {
+    width: 230px;
+    height: 260px;
+    padding: 20px;
+    float: left;
+    background-color: #343a40;
+    color: #ffffff;
+}
+.footer3 h6 a{
+    color: #ffbe0d;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+:hover>a {
+    font-style: italic;
+    color: #ffbe0d;
+}
+.footer4 {
+    list-style: none;
+    width: 272px;
+    height: 260px;
+    float: left;
+    background-color: #343a40;
+    padding: 20px;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.menu li {
+    height: 50px;
+    width: 148.1px;
+    background-color: #52240f;
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    text-indent: 10px;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: #ffbe0d;
+}
+
+li:hover>a {
+    font-style: italic;
+    color: #ffbe0d;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.menu li .submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu ul li .submenu li {
+    width: 200px;
+}
+
+.thanh-tieu-de {
+    width: 100%;
+    height: 45px;
+    background-color: #ffbe0d;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.hang {
+    height: 310px;
+    background-color: #ffffff;
+}
+
+.o {
+    width: 210.9px;
+    height: 300px;
+    background-color: #ffffff;
+    float: left;
+    border: 0.01px solid #ffbe0d;
+    text-align: center;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.o img {
+    width: 200px;
+    height: 190px;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.o a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.o:hover a {
+    color: #ffbe0d;
+}
+
+.o p {
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+}
+
+
+/*  */
+
+#slideshow {
+    overflow: hidden;
+    width: 1060px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 50px;
+}
+
+.slide-wrapper {
+    width: 10000px;
+    -webkit-animation: slide 25s ease infinite;
+}
+
+.slide {
+    float: left;
+    width: 1060px;
+    height: 200px;
+}
+
+@-webkit-keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    30% {
+        margin-left: -1060px;
+    }
+    50% {
+        margin-left: -1060px;
+    }
+    60% {
+        margin-left: -2120px;
+    }
+    80% {
+        margin-left: -2120px;
+    }
+    100% {
+        margin-left: -3180px;
+    }
+    120% {
+        margin-left: -3180px;
+    }
+}
+
+.menu1 {
+    display: flex;
+    float: right;
+    list-style: none;
+    right: 15px;
+    top: 2px;
+    margin-right: 10px;
+}
+
+.menu1 a {
+    text-decoration: none;
+    display: block;
+    margin-left: 30px;
+    color: #000000;
+}
+
+.thanh-tieu-de li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    text-indent: 10px;
+    text-align: center;
+}
+
+.thanh-tieu-de li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.thanh-tieu-de li:hover>a {
+    font-style: italic;
+    color: #ffffff;
+}   
+.giua
+{
+   
+    background-color:#f3f7f9;
+}
